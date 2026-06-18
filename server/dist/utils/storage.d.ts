@@ -1,0 +1,12 @@
+import { SyncConfig, SyncState, SyncRecord, ConflictFile } from '../types';
+export declare function initStorage(): Promise<void>;
+export declare function getConfig(): Promise<SyncConfig>;
+export declare function saveConfig(config: SyncConfig): Promise<void>;
+export declare function getSyncState(): Promise<SyncState>;
+export declare function saveSyncState(state: SyncState): Promise<void>;
+export declare function getSyncRecords(): Promise<SyncRecord[]>;
+export declare function addSyncRecord(record: SyncRecord): Promise<void>;
+export declare function getConflicts(): Promise<ConflictFile[]>;
+export declare function saveConflicts(conflicts: ConflictFile[]): Promise<void>;
+export declare function addConflict(conflict: ConflictFile): Promise<void>;
+export declare function resolveConflict(conflictId: string, resolution: 'source' | 'target' | 'merge', mergedContent?: string): Promise<void>;

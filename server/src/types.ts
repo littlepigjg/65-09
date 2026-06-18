@@ -62,4 +62,16 @@ export interface SyncStatus {
   conflictCount: number;
   totalFiles: number;
   recentRecords: SyncRecord[];
+  activeLocks: LockStatus[];
+}
+
+export type LockOperation = 'sync' | 'conflict-resolution' | 'backup' | 'manual-sync';
+
+export interface LockStatus {
+  filePath: string;
+  operation: LockOperation;
+  lockId: string;
+  acquiredAt: number;
+  heldDuration: number;
+  waitQueueLength: number;
 }
