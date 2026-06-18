@@ -1,0 +1,11 @@
+[
+  {
+    "id": "3c0dc48f-d3fe-4771-b06f-f892b6152b1a",
+    "timestamp": 1781713462030,
+    "action": "conflict",
+    "filePath": "conflict-1.txt",
+    "source": "source",
+    "status": "success",
+    "message": "Resolved conflict by choosing source version"
+  }
+]

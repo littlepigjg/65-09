@@ -1,0 +1,33 @@
+{
+  "lastSyncTime": 1781713620051,
+  "files": {
+    "conflict-1.txt": {
+      "path": "conflict-1.txt",
+      "hash": "e18f809ac106b3a868c1482ef046a98d",
+      "size": 46,
+      "mtime": 1781713313127,
+      "source": "source"
+    },
+    "identical-1.txt": {
+      "path": "identical-1.txt",
+      "hash": "ec7cdfd89c975d35e5da466a37e383de",
+      "size": 33,
+      "mtime": 1781713313121,
+      "source": "source"
+    },
+    "identical-2.txt": {
+      "path": "identical-2.txt",
+      "hash": "933a9995b8470d41d6e579c60759c9b3",
+      "size": 33,
+      "mtime": 1781713313123,
+      "source": "source"
+    },
+    "identical-3.txt": {
+      "path": "identical-3.txt",
+      "hash": "0b70ed569c4ae23034d34fae8879ec52",
+      "size": 33,
+      "mtime": 1781713313124,
+      "source": "source"
+    }
+  }
+}
